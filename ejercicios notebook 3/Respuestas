@@ -1,0 +1,12 @@
+1.3) ¿A qué tipo de aplicación podría servir esta base de datos?
+	Esta base de datos podría servir para un sistema gps
+
+2.1) ¿Por qué hacer copias de seguridad de su base de datos?
+	Me parece lógico hacer copias de seguridad ya que si hay una falla eléctrica inesperada, problemas de hardware, crashes de sistema, o una transacción que no pudo terminarse, se necesita la copia de seguridad para restaurar los datos a la última actualización.
+
+2.2) Utilizar el comando Mysqldump para realizar una copia de su base de datos. ¿Cuál es el output de este comando?
+	El output es un archivo comprimido que contiene la información de la base de datos
+
+2.3) En algunos casos, queremos simplemente exportar datos para poder utilizarlos en otros contextos. ¿En qué consiste el formato de datos CSV? ¿Cómo exportar datos al formato CSV desde MySQL?
+	Consiste en un archivo que separa los datos con ","s y permite exportar nuestra base de datos o parte de ella a programas, tales como excel, open office, etc.
+	Para exportar datos se debe seleccionar la tabla y datos que queremos seleccionar con la consulta "SELECT"
